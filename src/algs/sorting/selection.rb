@@ -12,6 +12,10 @@ module Algorithms
             end
 
             def swap(array, index1, index2)
+
+                # Logging events...
+                puts "Swapping values #{array[index1]} (curr) and #{array[index2]} (min)..."
+
                 tmp = array[index1]
                 array[index1] = array[index2]
                 array[index2] = tmp
