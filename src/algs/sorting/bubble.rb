@@ -6,19 +6,24 @@ module Algorithms
             end
 
             def sort(array)
+                offset = 2
+
                 while @swapped
                     @swapped = false
 
                     # Logging...
                     puts "Working with values #{array.join(', ')}..."
-                    puts "Scanning indices 0-#{array.size - 1}..."
+                    puts "Working with indices %s..." % \
+                        (0..(array.size - offset)).to_a.join(', ')
 
-                    for index in 0..(array.size - 2)
+                    for index in 0..(array.size - offset)
                         if array[index] > array[index + 1]
                             array = swap(array, index, index + 1)
                             @swapped = true
                         end
                     end
+
+                    offset += 1
                 end
 
                 array
