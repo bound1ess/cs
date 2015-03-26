@@ -5,7 +5,7 @@ module Algorithms
                 for index in 0..(array.size - 2)
                     min_index = array.find_index(array.slice(index, array.size - index).min)
 
-                    array = swap(array, index, min_index)
+                    array = swap(array, index, min_index) unless min_index == index
                 end
 
                 array
