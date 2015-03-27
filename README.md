@@ -10,7 +10,7 @@
 - merge sort [x]
 - quick sort [x]
 - radix sort [ ]
-- bucket sort [ ]
+- bucket sort [x]
 - counting sort [x]
 - heap sort [ ]
 - shell sort [ ]
