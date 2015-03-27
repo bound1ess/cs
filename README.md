@@ -11,6 +11,6 @@
 - quick sort [x]
 - radix sort [ ]
 - bucket sort [ ]
-- counting sort [ ]
+- counting sort [x]
 - heap sort [ ]
 - shell sort [ ]
