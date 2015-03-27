@@ -3,6 +3,9 @@ module Algorithms
         class Quick
             def sort(array, left = 0, right = nil)
                 right = array.size - 1 if right.nil?
+
+                puts "Sorting [#{array[left, right + 1].join(', ')}]"
+
                 index = split(array, left, right)
 
                 array = sort(array, left, index - 1) if left < (index - 1)
@@ -14,11 +17,16 @@ module Algorithms
             def split(array, left, right)
                 pivot = array[(left + right) / 2]
 
+                puts "Pivot value: #{pivot}, index: #{(left + right) / 2}"
+
                 while left <= right
                     left += 1 while array[left] < pivot
                     right -= 1 while array[right] > pivot
 
                     if left <= right
+
+                        puts "Swap values #{array[left]} and #{array[right]}"
+
                         tmp = array[left]
                         array[left] = array[right]
                         array[right] = tmp
