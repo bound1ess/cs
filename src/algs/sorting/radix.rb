@@ -1,6 +1,7 @@
 module Algorithms
     module Sorting
         class Radix
+            # O(matrix.first.length * matrix.size)
             def sort(array)
                 matrix = []
 
@@ -8,7 +9,20 @@ module Algorithms
                     matrix.push digits(number)
                 end
 
-                matrix
+                offset = -1
+
+                matrix.first.length.times do
+                    offset += 1
+
+                    matrix.sort! do |one, another|
+                        one[offset] <=> another[offset]
+                    end
+                end
+
+                matrix.map do |digits|
+                    # Notice that this approach is very different from what I did in #digits.
+                    digits.reverse.join('').to_i
+                end
             end
 
             def digits(number)
