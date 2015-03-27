@@ -3,14 +3,18 @@ module Algorithms
         class Insertion
             def sort(array)
                 for index in 1..(array.size - 1)
-                    value, hole = array[index], index
+                    value, hole_index = array[index], index
 
-                    while hole > 0 and array[hole - 1] > value
-                        array[hole] = array[hole - 1]
-                        hole -= 1
+                    puts "Value: #{value}, initial hole position: #{hole_index}"
+
+                    while hole_index > 0 and array[hole_index - 1] > value
+                        array[hole_index] = array[hole_index - 1]
+                        hole_index -= 1
                     end
 
-                    array[hole] = value
+                    puts "The hole position was adjusted to #{hole_index}"
+
+                    array[hole_index] = value
                 end
 
                 array
