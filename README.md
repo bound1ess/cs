@@ -13,4 +13,4 @@
 - bucket sort [x]
 - counting sort [x]
 - heap sort [ ]
-- shell sort [ ]
+- shell sort [x]
