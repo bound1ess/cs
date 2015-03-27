@@ -8,7 +8,7 @@
 - selection sort [x]
 - insertion sort [x]
 - merge sort [x]
-- quick sort [ ]
+- quick sort [x]
 - radix sort [ ]
 - bucket sort [ ]
 - counting sort [ ]
