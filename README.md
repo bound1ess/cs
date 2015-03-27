@@ -6,7 +6,7 @@
 
 - bubble sort [x]
 - selection sort [x]
-- insertion sort [ ]
+- insertion sort [x]
 - merge sort [ ]
 - quick sort [ ]
 - radix sort [ ]
