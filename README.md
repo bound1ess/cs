@@ -17,7 +17,7 @@
 
 ### Searching
 
-- linear search [ ]
+- linear search [x]
 - binary search [ ]
 - depth first search [ ]
 - breadth first search [ ]
