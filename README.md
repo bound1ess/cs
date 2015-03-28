@@ -28,6 +28,6 @@
 - linked list [ ]
 - doubly linked list [ ]
 - stack [x]
-- queue [ ]
+- queue [x]
 - tree(s) [ ]
 - ...
