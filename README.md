@@ -18,6 +18,6 @@
 ### Searching
 
 - linear search [x]
-- binary search [ ]
+- binary search [x]
 - depth first search [ ]
 - breadth first search [ ]
