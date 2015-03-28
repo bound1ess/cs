@@ -27,7 +27,7 @@
 - hash table [x]
 - linked list [ ]
 - doubly linked list [ ]
-- stack [ ]
+- stack [x]
 - queue [ ]
 - tree(s) [ ]
 - ...
