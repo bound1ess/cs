@@ -12,5 +12,12 @@
 - radix sort [x]
 - bucket sort [x]
 - counting sort [x]
-- heap sort [ ]
+- heap sort [later]
 - shell sort [x]
+
+### Searching
+
+- linear search [ ]
+- binary search [ ]
+- depth first search [ ]
+- breadth first search [ ]
