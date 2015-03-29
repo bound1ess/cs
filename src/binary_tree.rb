@@ -42,7 +42,26 @@ class BinaryTree
         true
     end
 
-    def traverse
-        raise "No block was given." unless block_given?
+    def all
+        return [] if @root.nil?
+
+        do_traverse(@root).map { |node| node.value }
+    end
+
+    private
+    def do_traverse(node)
+        nodes = Array.new
+
+        nodes.push(node)
+
+        if not node.left.nil?
+            nodes = nodes.concat do_traverse(node.left)
+        end
+
+        if not node.right.nil?
+            nodes = nodes.concat do_traverse(node.right)
+        end
+
+        nodes
     end
 end
