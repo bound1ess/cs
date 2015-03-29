@@ -26,8 +26,8 @@
 
 - hash table [x]
 - singly linked list [x]
-- doubly linked list [ ]
+- doubly linked list [x]
 - stack [x]
 - queue [x]
-- tree(s) [ ]
-- ...
+- binary tree [ ]
+- heap [ ]
