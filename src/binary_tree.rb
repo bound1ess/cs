@@ -10,8 +10,14 @@ class TreeNode
 end
 
 class BinaryTree
-    def initialize(root_node = nil)
-        @root = root_node
+    attr_reader :root
+
+    def initialize(root = nil)
+        @root = root
+    end
+
+    def empty?
+        @root.nil?
     end
 
     def insert(node)
@@ -43,7 +49,7 @@ class BinaryTree
     end
 
     def all
-        return [] if @root.nil?
+        return [] if empty?
 
         do_traverse(@root).map { |node| node.value }
     end
