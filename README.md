@@ -30,5 +30,5 @@
 - doubly linked list [x]
 - stack [x]
 - queue [x]
-- binary tree [ ]
+- binary tree [x]
 - heap [ ]
