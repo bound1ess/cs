@@ -54,4 +54,22 @@ class LinkedList
 
         values
     end
+
+    def has_loop?
+        # Floyd's algorithm.
+        slow = fast = @head
+
+        loop do
+            slow = slow.link
+
+            if fast.link.nil?
+                return false
+            else
+                fast = fast.link.link
+            end
+
+            return false if fast.nil? or slow.nil?
+            return true if fast.value == slow.value
+        end
+    end
 end

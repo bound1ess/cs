@@ -26,6 +26,7 @@
 
 - hash table [x]
 - singly linked list [x]
+    - detecting a loop [x]
 - doubly linked list [x]
 - stack [x]
 - queue [x]
