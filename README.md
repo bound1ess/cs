@@ -25,7 +25,7 @@
 ## Data structures
 
 - hash table [x]
-- linked list [ ]
+- singly linked list [x]
 - doubly linked list [ ]
 - stack [x]
 - queue [x]
