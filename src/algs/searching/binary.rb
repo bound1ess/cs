@@ -21,7 +21,7 @@ module Algorithms
                     subset = array.slice(middle + 1, array.size - middle)
                 end
 
-                puts "Chosen subset: [#{subset.join(', ')}]"
+                #puts "Chosen subset: [#{subset.join(', ')}]"
 
                 search(value, subset)
             end
