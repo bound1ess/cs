@@ -20,7 +20,11 @@ class BinaryTree
     end
 
     def insert(node)
-        return @root = node if @root.nil?
+        if @root.nil?
+            @root = node
+
+            return true
+        end
 
         # BFSearch using Queue.
         queue = Queue.new
