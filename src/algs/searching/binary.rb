@@ -2,6 +2,9 @@ module Algorithms
     module Searching
         class Binary
             def search(value, array)
+                return false if array.empty?
+
+                # Find the middle element index.
                 middle = array.size / 2
 
                 # Essential check.
