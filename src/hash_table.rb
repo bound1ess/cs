@@ -1,7 +1,6 @@
 class HashTable
-    def initialize
-        @data = Array.new
-        @size = 2 ** 10 # 1024
+    def initialize(size=128)
+        @data, @size = Array.new, size
     end
 
     def set(key, value)
@@ -16,6 +15,7 @@ class HashTable
         @data[hash]
     end
 
+    private
     def hash_key(key)
         # We use the simple djb2 hashing algorithm (modified).
         hash = 5381
