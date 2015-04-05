@@ -3,3 +3,7 @@ task :test do
 end
 
 task :default => :test
+
+task :server do
+    sh 'thin start --adapter file --address localhost --port 8000'
+end
