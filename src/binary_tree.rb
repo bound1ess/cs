@@ -1,7 +1,6 @@
 require_relative 'queue'
 
 class TreeNode
-
     attr_accessor :value, :left, :right
 
     def initialize(value, left = nil, right = nil)
