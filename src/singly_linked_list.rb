@@ -1,5 +1,4 @@
 class ListNode
-
     attr_accessor :value, :link
 
     def initialize(value, link = nil)
@@ -12,7 +11,6 @@ class ListNode
 end
 
 class LinkedList
-
     attr_reader :head
 
     def initialize
