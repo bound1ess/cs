@@ -51,6 +51,12 @@ class BinaryTree
         true
     end
 
+    def find(value)
+        return false if @root.nil?
+
+        do_find(@root, value)
+    end
+
     def all
         return [] if empty?
 
@@ -58,6 +64,16 @@ class BinaryTree
     end
 
     private
+    def do_find(node, value)
+        return true if node.value == value
+
+        if not node.left.nil? and do_find(node.left, value)
+            return true
+        end
+
+        not node.right.nil? and do_find(node.right, value)
+    end
+
     def do_traverse(node)
         nodes = Array.new
 

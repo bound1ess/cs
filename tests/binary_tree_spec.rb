@@ -49,6 +49,22 @@ RSpec.describe(BinaryTree) do
         ['bar', 'baz', 'fizz'].each { |item| @sut.insert TreeNode.new(item) }
     end
 
+    it('finds a TreeNode element') do
+        expect(@sut.find('foo')).to eq(false)
+
+        @sut.insert(TreeNode.new('foo'))
+
+        expect(@sut.find('foo')).to eq(true)
+
+        ['bar', 'baz', 'fizz'].each { |item| @sut.insert TreeNode.new(item) }
+
+        expect(@sut.find('bar')).to eq(true)
+        expect(@sut.find('baz')).to eq(true)
+        expect(@sut.find('fizz')).to eq(true)
+
+        expect(@sut.find('asd')).to eq(false)
+    end
+
     it('returns all TreeNode values') do
         node = TreeNode.new('foo', TreeNode.new('bar'), TreeNode.new('baz'))
 
