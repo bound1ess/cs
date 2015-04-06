@@ -23,6 +23,8 @@ class LinkedList
     end
 
     def tail=(node)
+        return @head = node if @head.nil?
+
         tail().link = node
     end
 
@@ -44,6 +46,8 @@ class LinkedList
     def to_a
         values, node = Array.new, @head
 
+        return values if node.nil?
+
         loop do
             values.push(node.value)
             break if node.end?
@@ -54,6 +58,8 @@ class LinkedList
     end
 
     def has_loop?
+        return false if @head.nil?
+
         # Floyd's algorithm.
         slow = fast = @head
 
