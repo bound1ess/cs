@@ -1,34 +1,3 @@
-# Computer Science
+# Algorithms & Data Structures
 
-## Algorithms
-
-### Sorting
-
-- bubble sort [x]
-- selection sort [x]
-- insertion sort [x]
-- merge sort [x]
-- quick sort [x]
-- radix sort [x]
-- bucket sort [x]
-- counting sort [x]
-- heap sort [later]
-- shell sort [x]
-
-### Searching
-
-- linear search [x]
-- binary search [x]
-- depth first search [later]
-- breadth first search [later]
-
-## Data structures
-
-- hash table [x]
-- singly linked list [x]
-    - detecting a loop [x]
-- doubly linked list [x]
-- stack [x]
-- queue [x]
-- binary tree [x]
-- heap [ ]
+The entire project will be rewritten in C++.
