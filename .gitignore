@@ -1,1 +1,2 @@
-/coverage/
+/src/algs/*/*
+!/src/algs/*/*.cpp
