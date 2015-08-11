@@ -20,6 +20,7 @@ int main() {
     printf(i + 1 < n ? " " : "\n");
   }
 
+  delete[] arr;
   return 0;
 }
 

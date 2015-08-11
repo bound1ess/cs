@@ -20,6 +20,7 @@ int main() {
   }
 
   printf("%d\n", arr[n - 1]);
+  delete[] arr;
   return 0;
 }
 
