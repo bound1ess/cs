@@ -12,3 +12,4 @@
 
 - a very simple doubly linked list
 - adjacency matrix and list
+- simple stack
