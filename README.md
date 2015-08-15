@@ -3,7 +3,7 @@
 ## Algorithms
 
 - merge sort, heapsort, quicksort, insertion sort, selection sort, bubble sort
-- counting sort, bogo sort :(
+- counting sort, radix sort, bogo sort :(
 - binary and linear search
 - sieve of Eratosthenes
 - DFS, BFS, iterative DFS
