@@ -1,2 +1,4 @@
 /src/algs/*/*
 !/src/algs/*/*.cpp
+/src/ds/*/*
+!/src/ds/*/*.cpp
