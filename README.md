@@ -7,6 +7,7 @@
 - binary and linear search
 - sieve of Eratosthenes
 - DFS, BFS, iterative DFS
+- fast binary exponentiation
 
 ## Data Structures
 
