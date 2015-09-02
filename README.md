@@ -8,6 +8,7 @@
 - sieve of Eratosthenes
 - DFS, BFS, iterative DFS
 - fast binary exponentiation
+- convert from decimal to whatever
 
 ## Data Structures
 
