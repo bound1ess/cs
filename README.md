@@ -16,3 +16,4 @@
 - adjacency matrix and list
 - simple stack
 - simple max-heap
+- BST
