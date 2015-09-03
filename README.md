@@ -17,3 +17,4 @@
 - simple stack
 - simple max-heap
 - BST
+- Huffman tree
