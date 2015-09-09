@@ -4,6 +4,7 @@
 
 - merge sort, heapsort, quicksort, insertion sort, selection sort, bubble sort
 - counting sort, radix sort, bogo sort :(
+- topological sorting
 - binary and linear search
 - sieve of Eratosthenes
 - DFS, BFS, iterative DFS
