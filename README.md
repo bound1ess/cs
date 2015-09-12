@@ -10,6 +10,7 @@
 - DFS, BFS, iterative DFS
 - fast binary exponentiation
 - convert from decimal to whatever
+- find cycles in a DAG
 
 ## Data Structures
 
