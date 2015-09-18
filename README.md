@@ -16,7 +16,7 @@
 
 - a very simple doubly linked list
 - adjacency matrix and list
-- simple stack
+- simple stack, queue
 - simple max-heap and min-heap
 - BST
 - Huffman tree
