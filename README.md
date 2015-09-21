@@ -11,6 +11,7 @@
 - fast binary exponentiation
 - convert from decimal to whatever
 - find cycles in a DAG
+- Dijkstra!
 
 ## Data Structures
 
