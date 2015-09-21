@@ -12,6 +12,7 @@
 - convert from decimal to whatever
 - find cycles in a DAG
 - Dijkstra!
+- generating a powerset using bitmasks
 
 ## Data Structures
 
