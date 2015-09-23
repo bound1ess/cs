@@ -13,6 +13,7 @@
 - find cycles in a DAG
 - Dijkstra!
 - generating a powerset using bitmasks
+- Wagner–Fischer algorithm (edit distance)
 
 ## Data Structures
 
