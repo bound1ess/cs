@@ -6,3 +6,5 @@
 /set-rightmost
 /isolate-rightmost
 /unset-rightmost
+/propagate-rightmost
+/isolate-rightmost-set
