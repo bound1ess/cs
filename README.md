@@ -23,3 +23,4 @@
 - simple max-heap and min-heap
 - BST
 - Huffman tree
+- very simple segment tree
