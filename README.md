@@ -14,6 +14,7 @@
 - Dijkstra!
 - generating a powerset using bitmasks
 - Wagner–Fischer algorithm (edit distance)
+- find all divisors in sqrt(n) time
 
 ## Data Structures
 
